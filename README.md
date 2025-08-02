@@ -23,3 +23,9 @@ make build-all
 make version-patch|minor|major
 make publish
 ```
+
+## roadmap
+
+- [ ] accept custom `app` location as an arg
+- [ ] enable ability to pipe `next dev` output INTO `next-dev-eager`, unlocking...
+    - [ ] live re-prioritization of which route to warm-up next
